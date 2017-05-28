@@ -3,7 +3,7 @@ require 'helper'
 describe Octokit::Client::GraphQL do
 
   let(:query) { <<-eos
-      {
+      query {
         viewer {
           login
           bio
